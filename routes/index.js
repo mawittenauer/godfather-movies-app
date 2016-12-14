@@ -1,5 +1,5 @@
 exports.home = function(req, res) {
-  res.send('This is the home page');
+  res.render('home');
 };
 
 exports.movie_page = function(req, res) {
