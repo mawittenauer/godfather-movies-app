@@ -1,0 +1,28 @@
+{
+  "movies" : [
+    {
+      title: 'The Godfather Part I',
+      part: "I",
+      characters: ["Vito Corleone", "Santino Corleone", "Michael Corleone", "Tom Hagen", "Clamenza", "Kay Adams"],
+      poster: "part_one_poster.jpg",
+      hero: "part_one_hero.jpg",
+      description: "The Godfather is a 1972 American crime drama directed by Francis Ford Coppola and produced by Albert S. Ruddy, based on Mario Puzo's best-selling novel of the same name. It stars Marlon Brando and Al Pacino as the leaders of a fictional New York crime family. The story, spanning 1945 to 1955, chronicles the family under the patriarch Vito Corleone, focusing on the transformation of Michael Corleone (Pacino) from reluctant family outsider to ruthless Mafia boss."
+    },
+    {
+      title: 'The Godfather Part II',
+      part: "II",
+      characters: ["Vito Corleone", "Michael Corleone", "Tom Hagen", "Kay Adams", "Fredo Corleone", "Connie Corleone"],
+      poster: "part_one_poster.jpg",
+      hero: "part_one_hero.jpg",
+      description: "The Godfather Part II is a 1974 American crime drama film produced and directed by Francis Ford Coppola from a screenplay co-written with Mario Puzo, starring Al Pacino and Robert De Niro. Partially based on Puzo's 1969 novel The Godfather, the film is both sequel and prequel to The Godfather, presenting parallel dramas: one picks up the 1958 story of Michael Corleone (Pacino), the new Don of the Corleone crime family, protecting the family business in the aftermath of an attempt on his life; the prequel covers the journey of his father, Vito Corleone (De Niro), from his Sicilian childhood to the founding of his family enterprise in New York City."
+    },
+    {
+      title: 'The Godfather Part III',
+      part: "III",
+      characters: ["Michael Corleone", "Kay Michelson", "Connie Corleone", "Vincent Mancini", "Joey Zasa", "Don Altobello"],
+      poster: "part_one_poster.jpg",
+      hero: "part_one_hero.jpg",
+      description: "The Godfather Part III is a 1990 American crime drama written by Mario Puzo and Francis Ford Coppola, and directed by Coppola. A sequel to The Godfather (1972) and The Godfather Part II (1974), it completes the story of Michael Corleone, a Mafia kingpin who attempts to legitimize his criminal empire. The film also includes fictionalized accounts of two real-life events: the 1978 death of Pope John Paul I and the Papal banking scandal of 1981–82, both linked to Michael Corleone's business affairs. The film stars Al Pacino, Diane Keaton, Talia Shire, and Andy García, and features Eli Wallach, Joe Mantegna, George Hamilton, Bridget Fonda, and Sofia Coppola."
+    }
+  ]
+}
