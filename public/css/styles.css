@@ -13,6 +13,11 @@ a {
   border-color: transparent;
 }
 
+.navbar-fixed-top {
+  position: absolute;
+  padding-top: 10px;
+}
+
 .dropdown-menu {
   background-color: transparent;
   background: transparent;
