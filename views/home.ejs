@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <% include partials/header.ejs %>
+    <% include partials/head.ejs %>
   </head>
   <body>
+    
+    <% include partials/header.ejs %>
+    
     <div class="hero" style="background-image: url('/images/home_poster.jpg')">
       <div class="title">
         <h2><%= title %></h2>
@@ -13,7 +16,9 @@
     <div class="container">
       <% movies.forEach(function(movie) { %>
         <div class="col-md-4 content-padding">
-          <img src="/images/<%= movie.poster %>" class="movie-poster">
+          <a href="/part/<%= movie.part %>">
+            <img src="/images/<%= movie.poster %>" class="movie-poster">
+          </a>
         </div>
       <% }); %>
     </div>

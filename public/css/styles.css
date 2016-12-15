@@ -1,3 +1,39 @@
+a {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.dropdown-menu li {
+  display: block !important;
+}
+
+.navbar {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
+
+.dropdown-toggle {
+  background-color: transparent !important;
+  background: transparent !important;
+  border-color: transparent !important;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+  float: right;
+}
+
+.navbar li { 
+  color: #000 
+} 
+
 body, html {
   height: 100%;
 }
