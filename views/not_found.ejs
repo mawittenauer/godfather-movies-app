@@ -10,14 +10,6 @@
       </div>
     </div>
     
-    <div class="container">
-      <% movies.forEach(function(movie) { %>
-        <div class="col-md-4 content-padding">
-          <img src="/images/<%= movie.poster %>" class="movie-poster">
-        </div>
-      <% }); %>
-    </div>
-    
     <% include partials/scripts.ejs %>
   </body>
 </html>

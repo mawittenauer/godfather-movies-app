@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include ../partials/header.ejs %>
+  </head>
+  <body>
+    <div class="hero" style="background-image: url('/images/<%= movie.hero %>')">
+      <div class="title">
+        <h2><%= title %></h2>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="col-md-4 content-padding">
+        <img src="/images/<%= movie.poster %>" class="single-movie-poster">
+      </div>
+      <div class="col-md-8 content-padding">
+        <h2>Description:</h2>
+        <p><%= movie.description %></p>
+        <h2>Characters:</h2>
+        <% movie.characters.forEach(function(character) { %>
+          <h3 class="character"><%= character %></h3>
+        <% }); %>
+      </div>
+    </div>
+    
+    <% include ../partials/scripts.ejs %>
+  </body>
+</html>
