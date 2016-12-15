@@ -6,7 +6,7 @@
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Movies</a>
         <ul class="dropdown-menu">
           <% movies.forEach(function(movie) { %> 
-            <a href="/part/<%= movie.part %>"><%= movie.title %></a>
+            <li><a href="/part/<%= movie.part %>"><%= movie.title %></a></li>
           <% }); %>
         </ul>
       </li>

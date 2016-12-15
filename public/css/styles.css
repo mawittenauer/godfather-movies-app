@@ -1,16 +1,33 @@
+/********************
+NAVIGATION
+********************/
+
 a {
   color: #fff !important;
   font-weight: bold;
 }
 
-.dropdown-menu li {
-  display: block !important;
+.dropdown-menu {
+  width: 400px;
+  margin-left: -80px;
 }
 
-.navbar {
-  background-color: transparent;
-  background: transparent;
-  border-color: transparent;
+.dropdown-menu li {
+  display: block !important;
+  width: 100%;
+}
+
+.nav {
+  width: 200px;
+  float: right;
+}
+
+.nav li {
+  float: left;
+}
+
+.open {
+  width: 50%;
 }
 
 .navbar-fixed-top {
@@ -18,21 +35,14 @@ a {
   padding-top: 10px;
 }
 
-.dropdown-menu {
-  background-color: transparent;
-  background: transparent;
-  border-color: transparent;
-}
-
-.dropdown-toggle {
+.dropdown-menu, .dropdown-toggle, .navbar, .dropdown-menu li a {
   background-color: transparent !important;
   background: transparent !important;
   border-color: transparent !important;
 }
 
-.dropdown-menu a {
+.dropdown-menu li a {
   text-decoration: none;
-  float: right;
 }
 
 .navbar li { 
@@ -53,7 +63,7 @@ img {
 }
 
 .hero {
-  height: 80%;
+  height: 40%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -93,4 +103,19 @@ img {
   float: left;
   margin-right: 30px;
   margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .dropdown-menu {
+    margin-left: 0px;
+    width: 0;
+  }
+  
+  .hero {
+    height: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
 }
