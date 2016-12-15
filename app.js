@@ -1,6 +1,12 @@
 var express = require('express');
 var app = express();
 
+app.set('view engine', 'ejs');
+
+var path = require('path');
+
+app.use(express.static(path.join(__dirname, 'public')));
+
 var routes = require('./routes');
 
 app.get('/', routes.home);
