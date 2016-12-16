@@ -20,7 +20,8 @@ exports.movie_page = function(req, res) {
   
     res.render('templates/single_movie', {
       title: movie.title,
-      movie: movie
+      movie: movie,
+      movies: movies
     });
   } else {
     res.render('not_found', {
@@ -30,7 +31,9 @@ exports.movie_page = function(req, res) {
 };
 
 exports.not_found = function(req, res) {
+  var movies = moviesJSON.movies;
   res.render('not_found', {
-    title: 'Page Not Found'
+    title: 'Page Not Found',
+    movies: movies
   });
 };

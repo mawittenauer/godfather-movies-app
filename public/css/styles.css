@@ -1,3 +1,70 @@
+/********************
+GENERAL
+********************/
+
+a {
+  color: #fff !important;
+  font-weight: bold;
+  font-family: 'Anton', sans-serif !important;
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Anton', sans-serif !important;
+}
+
+p {
+  font-family: 'Droid Serif', serif !important;
+  line-height: 1.8;
+}
+
+/********************
+NAVIGATION
+********************/
+
+.dropdown-menu {
+  width: 400px;
+  margin-left: -120px;
+}
+
+.dropdown-menu li {
+  display: block !important;
+  width: 100%;
+}
+
+.nav {
+  width: 200px;
+  float: right;
+}
+
+.nav li {
+  float: left;
+}
+
+.open {
+  width: 50%;
+}
+
+.navbar-fixed-top {
+  position: absolute;
+  padding-top: 10px;
+}
+
+.dropdown-menu, .dropdown-toggle, .navbar, .dropdown-menu li a {
+  background-color: transparent !important;
+  background: transparent !important;
+  border-color: transparent !important;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: #cd1709 !important;
+}
+
+.navbar li { 
+  color: #000 
+} 
+
 body, html {
   height: 100%;
 }
@@ -12,7 +79,7 @@ img {
 }
 
 .hero {
-  height: 80%;
+  height: 40%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -34,7 +101,7 @@ img {
 .title h2 {
   padding: 0;
   margin: 0;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .movie-poster {
@@ -52,4 +119,24 @@ img {
   float: left;
   margin-right: 30px;
   margin-left: 10px;
+}
+
+.description {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .dropdown-menu {
+    margin-left: 0px;
+    width: 0;
+  }
+  
+  .hero {
+    height: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
 }

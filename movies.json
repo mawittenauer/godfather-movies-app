@@ -1,7 +1,7 @@
 {
   "movies" : [{
       "title": "The Godfather Part I",
-      "part": "I",
+      "part": "1",
       "characters": ["Vito Corleone", "Santino Corleone", "Michael Corleone", "Tom Hagen", "Clamenza", "Kay Adams"],
       "poster": "part_one_poster.jpg",
       "hero": "part_one_hero.jpg",
@@ -9,7 +9,7 @@
     },
     {
       "title": "The Godfather Part II",
-      "part": "II",
+      "part": "2",
       "characters": ["Vito Corleone", "Michael Corleone", "Tom Hagen", "Kay Adams", "Fredo Corleone", "Connie Corleone"],
       "poster": "part_two_poster.jpg",
       "hero": "part_two_hero.jpg",
@@ -17,7 +17,7 @@
     },
     {
       "title": "The Godfather Part III",
-      "part": "III",
+      "part": "3",
       "characters": ["Michael Corleone", "Kay Michelson", "Connie Corleone", "Vincent Mancini", "Joey Zasa", "Don Altobello"],
       "poster": "part_three_poster.jpg",
       "hero": "part_three_hero.jpg",
